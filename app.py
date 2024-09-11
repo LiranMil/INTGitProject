@@ -9,7 +9,7 @@ def home():
 
 
 @app.route("/status")
-def home():
+def status():
     return "OK"
 
 
@@ -29,14 +29,18 @@ def contact():
 
 
 @app.route("/chat")
-def contact():
+def chat():
     return "You can chat with live agent!"
 
 
-<<<<<<< HEAD
 @app.route("/services")
 def services():
     return "We offer the following services: web development, data analysis, SEO."
+
+
+@app.route("/internal")
+def internal():
+   return "System managment portal"
 
 
 if __name__ == "__main__":
