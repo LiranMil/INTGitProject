@@ -40,7 +40,7 @@ def services():
 
 @app.route("/internal")
 def internal():
-   return "System managment portal"
+   return "System management portal"
 
 
 if __name__ == "__main__":
