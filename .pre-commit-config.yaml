@@ -1,0 +1,8 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+    -   id: detect-aws-credentials
+        args: ['~/AWS_ACCESS_KEY_ID', '~/AWS_SECRET_ACCESS_KEY']
+    hooks:
+    -   id: detect-private-key
